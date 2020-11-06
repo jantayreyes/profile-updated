@@ -50,7 +50,7 @@ body {
   height: 150px;
   display: inline-block;
   padding: 8px;
-  background: linear-gradient(130deg, #74b9ff, #e66767);
+  background: linear-gradient(130deg, #0a284b, #e66767);
   margin: auto;
   border-radius: 50%;
   background-size: 200% 200%;
@@ -169,4 +169,18 @@ body {
 
 .contact-btn {
   display: inline-block;
+}
+
+.contact-btn {
+  padding: 12px 50px;
+  color: #f2f2f2;
+  border: 2px solid #deadb2;
+  border-radius: 6px;
+  margin-top: 16px;
+  transition: 0.3s linear;
+}
+
+.contact-btn:hover {
+  background-color: #deadb2;
+  color: #f2f2f2;
 }
